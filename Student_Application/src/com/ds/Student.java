@@ -1,11 +1,19 @@
 package com.ds;
 
+import java.util.Date;
+
 public class Student {
 	
 	private int id;
 	private String name;
+	private Date dob;
 	
-	
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
 	public int getId() {
 		return id;
 	}
