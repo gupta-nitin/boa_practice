@@ -4,12 +4,13 @@ import java.util.Date;
 
 public class Student {
 	
+	
 	private int id;
 	private String name;
 	private Date dob;
 	private int age;
 	private long contact;
-
+	private String address;
 	
 	public Date getDob() {
 		return dob;
@@ -43,6 +44,12 @@ public class Student {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	
 	
