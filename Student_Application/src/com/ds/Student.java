@@ -14,6 +14,15 @@ public class Student {
 	public Date getDob() {
 		return dob;
 	}
+
+	public long getContact() {
+		return dob;
+	}
+
+	public void setContact(long contact) {
+		return contact;
+	}
+
 	public void setDob(Date dob) {
 		this.dob = dob;
 	}
