@@ -8,6 +8,7 @@ public class Student {
 	private String name;
 	private Date dob;
 	private int age;
+	private long contact;
 
 	
 	public Date getDob() {
