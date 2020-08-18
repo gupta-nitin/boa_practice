@@ -1,5 +1,7 @@
 package com.employee.app;
 
-public class Employee {
+import com.persons.app.Person;
+
+public class Employee extends Person{
 
 }

@@ -1,5 +1,7 @@
 package com.students.app;
 
-public class Student {
+import com.persons.app.Person;
+
+public class Student extends Person{
 
 }

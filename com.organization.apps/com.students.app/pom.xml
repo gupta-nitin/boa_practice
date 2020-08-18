@@ -15,6 +15,19 @@
 		<relativePath>../</relativePath>
 	</parent>
 	
+	<dependencies>
+		
+		<dependency>
+			<groupId>organization</groupId>
+			<artifactId>com.persons.app</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	
+	
+	
+	
+	</dependencies>
+	
 	
   
 </project>
